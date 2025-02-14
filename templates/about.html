@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        body {
+            {% if background_image %}
+                background-image: url("{{ background_image }}");
+            {% else %}
+                background-color: #f1f1f1;
+            {% endif %}
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #08070e;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Georgia', serif; /* Example font */
+            font-size: 2em; /* Optional: Adjust font size */
+            
+        }
+
+        header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        header ul li {
+            margin-left: 10px;
+        }
+
+        header ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .about-content {
+            background-color: rgba(70, 65, 83, 0);
+            width: 80%;
+            color: #fff;
+            max-width: 800px;
+            padding: 20px;
+            /* overflow-y: auto; */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+            margin-top: 20px;
+            line-height: 2;
+            /* max-height: 400px; */
+        }
+
+        .about-content p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #111423;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AUDIO DEEPFAKE DETECTION</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="about-content">
+            <h2 style="text-align: center;">About the Project: Audio Deepfake Detection</h2>
+            <p>With the rise of AI-driven audio synthesis, distinguishing between real and fake voices has become increasingly challenging. The Audio Deepfake Detection System is designed to counteract this threat by employing advanced artificial intelligence and signal processing techniques to analyze and verify the authenticity of voice recordings.</p>
+            <p>The primary goal of this project is to develop a reliable system that can differentiate between genuine and AI-generated voices, ensuring protection against voice spoofing, impersonation fraud, and misinformation.</p>
+            <p><strong>Key Features of the Audio Deepfake Detection System:</strong></p>
+            <ul>
+                <li><strong>AI-Powered Analysis:</strong> The system leverages deep learning models trained on extensive datasets to detect subtle variations in speech patterns, tone, and frequency that indicate synthetic audio.</li>
+                <li><strong>Signal Processing & Acoustic Examination:</strong> By analyzing waveforms, pitch modulation, and spectral characteristics, the system can uncover inconsistencies that suggest deepfake manipulations.</li>
+                <li><strong>Real-time Detection:</strong>  The tool provides instant verification of audio authenticity, making it suitable for both live conversations and pre-recorded samples.</li>
+                <li><strong>User-Friendly Interface:</strong> A simple, intuitive web interface enables users to easily upload audio files or record voice samples for immediate analysis.</li>
+            </ul>
+            <p>As deepfake technology advances, voice-based fraud and misinformation pose serious risks to privacy, security, and trust. This project aims to mitigate these risks by offering an efficient and accessible solution for detecting AI-generated voices.</p>
+            <p>By integrating cutting-edge machine learning and forensic audio analysis, this system plays a critical role in safeguarding communication channels and ensuring voice integrity in an increasingly digital world.</p>
+        </div>
+    </main>
+
+
+    <footer>
+        &copy; 2024 project by Shreya Ghoradkar. Please feel free to contact me with any inquiries you may have.
+    </footer>
+</body>
+</html>

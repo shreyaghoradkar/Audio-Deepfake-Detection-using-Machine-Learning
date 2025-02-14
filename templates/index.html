@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            {% if background_image %}
+                background-image: url("{{ background_image }}");
+            {% else %}
+                background-color: #f1f1f1;
+            {% endif %}
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #08070e;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header ul li {
+            margin-left: 10px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .invisible-container {
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .homepage-content {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 2;
+        }
+
+        .rectangle {
+            border: 2px solid #fff;
+            border-radius: 5px;
+            width: fit-content;
+            padding: 10px 20px;
+            margin: 0 auto;
+        }
+
+        .get-started {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #111423;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AUDIO DEEPFAKE DETECTION</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="invisible-container">
+            <div class="homepage-content">
+                <h2>Welcome to my Website</h2>
+                <p style="text-align:justify;">&emsp; Ensure the authenticity of your voice with "Audio Deepfake Detection." This advanced system leverages cutting-edge machine learning and audio analysis to detect synthetic or manipulated voices. Stay protected from deepfake threats, prevent voice fraud, and maintain trust in your audio communications.</p>
+            </div>
+            <div class="rectangle">
+                <a href="login.html" class="get-started">Get Started</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 project by Shreya Ghoradkar. Please feel free to contact me with any inquiries you may have.
+</body>
+</html>
