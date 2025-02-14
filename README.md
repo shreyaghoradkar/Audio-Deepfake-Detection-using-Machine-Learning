@@ -39,8 +39,7 @@ This project focuses on detecting **audio deepfakes** using machine learning tec
 ## 🖥️ Technologies Used  
 - 🐍 **Python 3.x**  
 - 🎶 **Librosa** - For audio feature extraction & preprocessing  
-- 📊 **Scikit-learn** - ML algorithms (Random Forest, SVM)  
-- 🔥 **TensorFlow/PyTorch** - For deep learning models (if used)  
+- 📊 **Scikit-learn** - ML algorithms (Random Forest, SVM)    
 - 📈 **Matplotlib** - For data visualization  
 - 📑 **NumPy & Pandas** - For data manipulation  
 
