@@ -1,16 +1,16 @@
 # 🎙️ Audio Deepfake Detection using Machine Learning 🔍  
 
-## Table of Contents
-1. [Project Description](#project-description)
-   - [What does your application do?](#what-does-your-application-do)
-   - [Why did you use the technologies you did?](#why-did-you-use-the-technologies-you-did)
-   - [Challenges Faced](#challenges-faced)
-   - [Features & Implementation](#features--implementation)
-2. [Technologies Used](#technologies-used)
-3. [Setup Instructions](#setup-instructions)
-4. [How to Use](#how-to-use)
-5. [Future Improvements](#future-improvements)
-6. [License](#license)
+## 📜 Table of Contents  
+1. [📌 Project Description](#project-description)  
+   - [🛠️ What does your application do?](#what-does-your-application-do)  
+   - [💡 Why did you use the technologies you did?](#why-did-you-use-the-technologies-you-did)  
+   - [⚠️ Challenges Faced](#challenges-faced)  
+   - [🚀 Features & Implementation](#features--implementation)  
+2. [🖥️ Technologies Used](#technologies-used)  
+3. [⚙️ Setup Instructions](#setup-instructions)  
+4. [📝 How to Use](#how-to-use)  
+5. [🌟 Future Improvements](#future-improvements)  
+6. [📜 License](#license) 
 ---  
 
 ## 📌 Project Description  
