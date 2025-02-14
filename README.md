@@ -47,7 +47,7 @@ This project focuses on detecting **audio deepfakes** using machine learning tec
 
 ---  
 
-## Setup Instructions
+## ⚙️Setup Instructions
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/shreyaghoradkar/Audio-Deepfake-Detection-using-Machine-Learning.git
@@ -64,7 +64,7 @@ This project focuses on detecting **audio deepfakes** using machine learning tec
 4. **Download the Dataset**
    Download and place the dataset in the appropriate folder within the project directory.
 
-## How to Use
+## 🚀How to Use
 
 1. **Run the Main Script**
    ```bash
@@ -74,10 +74,10 @@ This project focuses on detecting **audio deepfakes** using machine learning tec
 3. **View the Results**
    The system will display whether the audio is real or fake based on the analysis.
 
-## Future Improvements
+## 🔮Future Improvements
 - **Additional Datasets**: Adding more diverse datasets to improve model robustness.
 - **Real-Time Processing**: Implementing a real-time audio stream processing feature.
 - **Advanced Models**: Exploring more advanced deep learning techniques like GANs for audio generation and detection.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📜License
+📝This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
